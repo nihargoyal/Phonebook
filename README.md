@@ -45,7 +45,7 @@ Public Route: http://localhost:8080/api/contact/
 Request Type: GET
 ```
 
-### To mark a contact as SPAM
+To mark a contact as SPAM
 ```
 Private Route: http://localhost:8080/api/spam/
 Request Type: POST
@@ -55,7 +55,7 @@ Data:
     }
 ```
 
-### To search by name or phone_number
+To search by name or phone_number
 ```
 Private Route: http://localhost:8080/api/search/?name=john
 Request Type: GET
